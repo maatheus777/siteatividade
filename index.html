@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div id="tabela">
+        <h1>Formulário</h1>
+        <div class="tabela">
+        <div>Nome: <input type="text" id="tel"></div>
+        <div>Endereço: <input type="text" id="tel"></div>
+        <div>CEP: <input type="text" placeholder="xx.xxx-xxx" id="cep" oninput=mascara_cep() maxlength="10"></div>
+        <div>CPF: <input type="text" placeholder="xxx.xxx.xxx-xx" id="cpf" oninput=mascara_cpf() maxlength="14"></div>
+        <div>TELEFONE: <input type="tel" placeholder="(xx) x xxxx-xxxx"  id="telefone" oninput=mascara_telefone() maxlength="14"></div>
+        <div>CNPJ: <input type="text" placeholder="xx.xxx.xxx/0001-xx"  id="cnpj" oninput=mascara_cnpj() maxlength="18"></div>
+        <div>CODIGO: <input type="text" placeholder="xx_xx//xxx-xxx.9.xxx"  id="codigo" oninput=mascara_codigo() maxlength="20"></div>
+    </div>  
+    <div><button><a href="index2.html" id="confirmar">Confirmar</a></button></div>
+
+</body>
+</html>
